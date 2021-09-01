@@ -1,0 +1,45 @@
+*, *:after, *:before{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+@media(max-width: 640px){
+    .lorem_ipsum article{
+        flex-basis: calc(100% - 2em);
+    }
+}
+
+.botao_sair{
+    background-color: #00f169;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin: 0 4px;
+    text-decoration: none;
+}
+.botao_sair:hover{
+    background-color: #08c;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.artigo1{
+    color: #ccccff;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    text-align: center;
+}
+
+.arrendondar{
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
